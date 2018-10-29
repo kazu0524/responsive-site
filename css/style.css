@@ -1,0 +1,84 @@
+h2,.content-box,.title{
+    text-align:center;
+}
+
+
+
+.images{
+    background-image:url(../images/img_star.jpg);
+    height:500px;
+    width:100%;
+    margin:0 auto;
+    background-size: cover;
+    background-position: center center;
+}
+
+section{
+    padding:60px 0px;
+}
+
+.container{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content:space-between;
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.content-box{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 0px 10px;
+    padding: 20px;
+}
+
+.title,.text{
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.title{
+    padding:10px 0px;
+    background-color:#EDEDF0;
+}
+
+.text{
+    padding:30px 5px;
+    background-color:#384654;
+    color:#FDFCFF;
+}
+
+#link{
+    background-color:#EDEDF0;
+    padding:60px 0px;
+}
+
+.button{
+    text-align:center;
+    padding:10px 40px;
+    border-radius:5px;
+    width:20%;
+    margin:0px auto;
+    background-color:#384654;
+    color:#FDFCFF;
+}
+
+/* SPの場合 */
+
+@media (max-width: 768px) {
+  .images{height:250px;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+
+
